@@ -116,12 +116,6 @@ Since this is a static site, it can be deployed for free on any static hosting p
 
 ---
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
 ## 📬 Contact
 
 **Pranav Ekkaldevi**
