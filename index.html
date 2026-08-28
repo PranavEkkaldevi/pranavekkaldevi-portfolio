@@ -89,6 +89,7 @@
 
             <p class="hero-stack">
               Java <span class="dot-sep">•</span> Spring Boot
+              <span class="dot-sep">•</span> Microservices
               <span class="dot-sep">•</span> React.js
             </p>
 
@@ -156,17 +157,18 @@
           <div class="about-content">
             <p class="about-text">
               <strong>Java Full Stack Developer</strong> with
-              <strong>3+ years of experience</strong> building scalable,
+              <strong>3+ years of experience</strong> in building scalable and
               high-performance backend systems using
-              <strong>Java, Spring Boot, Microservices, and REST APIs</strong>.
-              Expert in secure authentication with
-              <strong>Spring Security &amp; JWT</strong>, with hands-on
-              experience in <strong>Kafka</strong> for event-driven architecture
-              and distributed systems. I own projects end-to-end — architecture,
-              code review, API integration, and deployment — currently building
-              production-grade enterprise applications at
-              <strong>ETHDC Technologies</strong>, with frontend integration
-              using <strong>React.js</strong>.
+              <strong>Java, Spring Boot, and REST APIs</strong>. Skilled in
+              developing RESTful APIs, implementing secure authentication using
+              <strong>Spring Security and JWT</strong>, with hands-on experience
+              with <strong>Kafka</strong> for event-driven architecture. Strong
+              background in backend development along with frontend integration
+              using <strong>React.js</strong>. Hands-on experience with
+              <strong>Microservices Architecture, Docker, and CI/CD</strong> in
+              production and personal projects. Proven ability to deliver
+              production-grade enterprise applications with improved performance
+              and scalability.
             </p>
 
             <div class="about-stats reveal-group">
@@ -232,27 +234,31 @@
                       APIs, for enterprise-level applications.
                     </li>
                     <li>
-                      Built and maintained microservices-based architecture,
-                      improving system modularity and reducing deployment
-                      dependencies by 40%.
+                      Developed and maintained Microservices-based backend
+                      architecture, enabling independent development, deploy
+                      ment, and better scalability of application modules.
+                    </li>
+                    <li>
+                      Designed and developed REST APIs for communication between
+                      frontend applications, microservices, and third-party
+                      services, ensuring reliable and efficient data exchange.
                     </li>
                     <li>
                       Optimized complex SQL queries and database indexing in
                       PostgreSQL and MySQL, reducing API response time by 60%.
                     </li>
                     <li>
-                      Developed scalable REST APIs for frontend integration and
-                      third-party services, ensuring reliable and efficient data
-                      exchange.
-                    </li>
-                    <li>
                       Implemented Spring Security and role-based authentication
-                      to secure backend services.
+                      to secure backend services and APIs.
                     </li>
                     <li>
-                      Collaborated with frontend developers to integrate APIs
-                      with ReactJS applications, improving UI responsiveness and
-                      user experience.
+                      Worked with Apache Kafka for asynchronous and event-driven
+                      communication between microservices.
+                    </li>
+                    <li>
+                      Collaborated with frontend developers to integrate backend
+                      APIs with ReactJS applications, improving UI responsive
+                      ness and user experience.
                     </li>
                     <li>
                       Participated in full development lifecycle including
@@ -294,12 +300,12 @@
                   ><span>Spring Data JPA</span><span>Hibernate</span
                   ><span>REST APIs</span><span>Microservices</span
                   ><span>Spring Security</span><span>PostgreSQL</span
-                  ><span>MySQL</span><span>ReactJS</span>
+                  ><span>MySQL</span><span>ReactJS</span><span>GIT</span>
                 </div>
               </div>
             </article>
 
-            <article class="exp-card">
+            <!-- <article class="exp-card">
               <div class="exp-head">
                 <div>
                   <h3>
@@ -346,7 +352,7 @@
                   <span>Git</span>
                 </div>
               </div>
-            </article>
+            </article> -->
           </div>
         </div>
       </section>
@@ -429,12 +435,65 @@
             <article class="project-card" data-category="fullstack">
               <div class="project-thumb thumb-1">
                 <img
+                  src="assets/ticket-netra-thumb.png"
+                  alt="Ticket-Netra dashboard"
+                  class="project-thumb-img"
+                />
+                <span class="thumb-badge badge-done"
+                  ><i class="fa-solid fa-check"></i> Completed</span
+                >
+                <span class="thumb-tag">Full Stack</span>
+              </div>
+              <div class="project-body">
+                <h3>
+                  Ticket-Netra – Microservices-based Multi-Tenant Ticketing SaaS
+                  Application
+                </h3>
+                <p>
+                  A scalable ticketing platform for organizations and schools to
+                  efficiently manage issue reporting, tracking, assignment, and
+                  resolution. Apr 2026 – Present.
+                </p>
+                <div class="project-tags">
+                  <span>Java</span><span>Spring Boot</span
+                  ><span>Microservices</span><span>Spring Data JPA</span>
+                  <span>RESTful APIs</span><span>Apache Kafka</span
+                  ><span>PostgreSQL</span><span>React.js</span>
+                </div>
+                <div class="key-features">
+                  <h4><i class="fa-solid fa-minus"></i> Key Features</h4>
+                  <ul>
+                    <li>
+                      Implemented multi-tenant architecture, role-based access
+                      control, SLA management, and ticket workflows.
+                    </li>
+                    <li>
+                      Built a structured organization → department → category
+                      hierarchy for efficient ticket management.
+                    </li>
+                    <li>
+                      Developed RESTful microservices for ticket management,
+                      user workflows, and communication between internal teams
+                      and external clients.
+                    </li>
+                    <li>
+                      Used Kafka for asynchronous communication between
+                      microservices and PostgreSQL for reliable data management.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="fullstack">
+              <div class="project-thumb thumb-1">
+                <img
                   src="assets/memorax-thumb.png"
                   alt="MemoraX campaign dashboard"
                   class="project-thumb-img"
                 />
-                <span class="thumb-badge badge-live"
-                  ><span class="dot-pulse dot-live"></span> Active</span
+                <span class="thumb-badge badge-done"
+                  ><i class="fa-solid fa-check"></i> Completed</span
                 >
                 <span class="thumb-tag">Full Stack</span>
               </div>
@@ -442,8 +501,8 @@
                 <h3>MemoraX – Institutional Campaign Automation System</h3>
                 <p>
                   A centralized platform for schools to manage events and run
-                  campaigns via Email and WhatsApp automation. Nov 2025 –
-                  Present.
+                  campaigns via Email and WhatsApp automation. Nov 2025 – Feb
+                  2026.
                 </p>
                 <div class="project-tags">
                   <span>Java</span>
@@ -658,6 +717,12 @@
                 <div class="skill-item">
                   <i class="fa-solid fa-network-wired"></i> Microservices
                 </div>
+                <div class="skill-item">
+                  <i class="fa-brands fa-docker"></i> Docker
+                </div>
+                <div class="skill-item">
+                  <i class="fa-solid fa-gears"></i> CI/CD
+                </div>
               </div>
             </div>
 
@@ -669,9 +734,6 @@
               <div class="skill-list">
                 <div class="skill-item">
                   <i class="fa-brands fa-react"></i> ReactJS
-                </div>
-                <div class="skill-item">
-                  <i class="fa-brands fa-angular"></i> Angular
                 </div>
                 <div class="skill-item">
                   <i class="fa-brands fa-js"></i> JavaScript ES6+
@@ -725,6 +787,23 @@
                 </div>
                 <div class="skill-item">
                   <i class="fa-solid fa-bolt"></i> Kafka
+                </div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <h3>
+                <i class="fa-solid fa-tower-broadcast"></i> Messaging &amp;
+                Security
+              </h3>
+              <p class="skill-desc">
+                Supporting secure and event-driven applications
+              </p>
+              <div class="skill-list">
+                <div class="skill-item">
+                  <i class="fa-solid fa-bolt"></i> Apache Kafka
+                </div>
+                <div class="skill-item">
+                  <i class="fa-solid fa-key"></i> JWT
                 </div>
               </div>
             </div>
