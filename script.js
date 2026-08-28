@@ -1,5 +1,9 @@
 // ===================== Typing effect =====================
-const roles = ["I build modern Full Stack web applications."];
+const roles = [
+  "I build modern Full Stack web applications.",
+  "I develop scalable backend systems with Java & Spring Boot.",
+  "I build Microservices and RESTful APIs.",
+];
 const typedEl = document.getElementById("typedRole");
 let roleIndex = 0,
   charIndex = 0,
