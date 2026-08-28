@@ -1459,3 +1459,52 @@ textarea:focus-visible {
   outline: 2px solid var(--text);
   outline-offset: 2px;
 }
+
+/* ===================== Mobile Spacing Fix ===================== */
+@media (max-width: 768px) {
+  .navbar {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  /* Main sections */
+  section {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  /* Common containers */
+  .container,
+  .nav-container,
+  .about-container,
+  .section-container {
+    width: 100%;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    box-sizing: border-box;
+  }
+
+  /* Prevent cards/content from touching screen edges */
+  .about-content,
+  .skills-grid,
+  .projects-grid,
+  .experience-grid,
+  .stats-grid {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .container,
+  .about-container,
+  .section-container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
